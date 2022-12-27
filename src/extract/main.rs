@@ -30,7 +30,7 @@ fn normalize_country(name: &str) -> String {
         "North. Cyprus" => "Northern Cyprus",
         "Nagorno Karabakh" => "Nagorno-Karabash",
         "Gambia" => "The Gambia",
-        "Trinidad &Tobago" | "Trinidad & Tobago" => " Trinidad and Tobago",
+        "Trinidad &Tobago" | "Trinidad & Tobago" => "Trinidad and Tobago",
         "UAEs" => "UAE",
         _ => name,
     }
@@ -207,7 +207,9 @@ fn main() -> Result<(), Box<dyn Error>> {
         table(r, &Regex::new(r"\d+ \d+ \d+$")?)
     })?;
 
-    let data = join(&table5, &table8)?;
+    let mut data = join(&table5, &table8)?;
+    data.sort_by(|a, b| a.country.cmp(&b.country));
+
     serde_json::to_writer_pretty(fs::File::create(&args.json_output)?, &data)?;
     tsv_to_writer(&mut fs::File::create(&args.tsv_output)?, &data)?;
 

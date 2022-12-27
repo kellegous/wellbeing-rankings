@@ -434,6 +434,20 @@
     "final": 65
   },
   {
+    "country": "Central African Republic",
+    "cantril": 215,
+    "enjoy": 202,
+    "smile": 183,
+    "well_rested": 140,
+    "pain": 215,
+    "sadness": 207,
+    "worry": 211,
+    "anger": 176,
+    "positive": 190,
+    "negative": 211,
+    "final": 211
+  },
+  {
     "country": "Chad",
     "cantril": 196,
     "enjoy": 180,
@@ -726,20 +740,6 @@
     "positive": 56,
     "negative": 184,
     "final": 116
-  },
-  {
-    "country": "Central African Republic",
-    "cantril": 215,
-    "enjoy": 202,
-    "smile": 183,
-    "well_rested": 140,
-    "pain": 215,
-    "sadness": 207,
-    "worry": 211,
-    "anger": 176,
-    "positive": 190,
-    "negative": 211,
-    "final": 211
   },
   {
     "country": "Estonia",
@@ -1764,20 +1764,6 @@
     "final": 136
   },
   {
-    "country": "Northern Cyprus",
-    "cantril": 103,
-    "enjoy": 154,
-    "smile": 135,
-    "well_rested": 178,
-    "pain": 56,
-    "sadness": 196,
-    "worry": 113,
-    "anger": 206,
-    "positive": 150,
-    "negative": 147,
-    "final": 158
-  },
-  {
     "country": "Nagorno-Karabash",
     "cantril": 157,
     "enjoy": 207,
@@ -2014,6 +2000,20 @@
     "positive": 200,
     "negative": 176,
     "final": 169
+  },
+  {
+    "country": "Northern Cyprus",
+    "cantril": 103,
+    "enjoy": 154,
+    "smile": 135,
+    "well_rested": 178,
+    "pain": 56,
+    "sadness": 196,
+    "worry": 113,
+    "anger": 206,
+    "positive": 150,
+    "negative": 147,
+    "final": 158
   },
   {
     "country": "Norway",
@@ -2688,7 +2688,7 @@
     "final": 212
   },
   {
-    "country": " Trinidad and Tobago",
+    "country": "Trinidad and Tobago",
     "cantril": 85,
     "enjoy": 71,
     "smile": 28,
@@ -2744,6 +2744,48 @@
     "final": 120
   },
   {
+    "country": "UAE",
+    "cantril": 53,
+    "enjoy": 100,
+    "smile": 112,
+    "well_rested": 5,
+    "pain": 152,
+    "sadness": 107,
+    "worry": 97,
+    "anger": 156,
+    "positive": 80,
+    "negative": 132,
+    "final": 57
+  },
+  {
+    "country": "UK",
+    "cantril": 66,
+    "enjoy": 72,
+    "smile": 77,
+    "well_rested": 124,
+    "pain": 19,
+    "sadness": 94,
+    "worry": 29,
+    "anger": 54,
+    "positive": 85,
+    "negative": 21,
+    "final": 111
+  },
+  {
+    "country": "USA",
+    "cantril": 16,
+    "enjoy": 60,
+    "smile": 79,
+    "well_rested": 114,
+    "pain": 101,
+    "sadness": 125,
+    "worry": 150,
+    "anger": 119,
+    "positive": 77,
+    "negative": 124,
+    "final": 150
+  },
+  {
     "country": "Uganda",
     "cantril": 185,
     "enjoy": 160,
@@ -2770,48 +2812,6 @@
     "positive": 186,
     "negative": 106,
     "final": 185
-  },
-  {
-    "country": "UAE",
-    "cantril": 53,
-    "enjoy": 100,
-    "smile": 112,
-    "well_rested": 5,
-    "pain": 152,
-    "sadness": 107,
-    "worry": 97,
-    "anger": 156,
-    "positive": 80,
-    "negative": 132,
-    "final": 57
-  },
-  {
-    "country": "USA",
-    "cantril": 16,
-    "enjoy": 60,
-    "smile": 79,
-    "well_rested": 114,
-    "pain": 101,
-    "sadness": 125,
-    "worry": 150,
-    "anger": 119,
-    "positive": 77,
-    "negative": 124,
-    "final": 150
-  },
-  {
-    "country": "UK",
-    "cantril": 66,
-    "enjoy": 72,
-    "smile": 77,
-    "well_rested": 124,
-    "pain": 19,
-    "sadness": 94,
-    "worry": 29,
-    "anger": 54,
-    "positive": 85,
-    "negative": 21,
-    "final": 111
   },
   {
     "country": "Uruguay",
